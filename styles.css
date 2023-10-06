@@ -5,30 +5,31 @@ html{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    width: 100px;
-    height: 100px;
+    width: 1000px;
+    height: 650px;
     margin: 0 auto;
 }
 
 
 .item {
-    /* background-color: #f2f2f2; */
+    background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
-    border: 1px solid #ccc;
+    border: 5px solid #000000;
 }
 
 
 .item:nth-child(odd) {
-    /* background-color: #ed1713; */
+    background-color: #ffc400;
 }
 
 .item:nth-child(even) {
-    /* background-color: #b3e0ff; */
+    background-color: #ff4d00;
 }
 
 .item:hover {
-    /* background-color: #3a0e0e; */
+    background-color: #3a0e0e;
     transform: scale(1.25);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
